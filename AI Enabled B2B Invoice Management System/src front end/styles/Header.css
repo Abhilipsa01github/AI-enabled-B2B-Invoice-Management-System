@@ -1,0 +1,42 @@
+/* .header {
+  background-color: #2a3e4c;
+} */
+
+.header-first {
+    position: relative;
+    text-align: center;
+    height: max-content;
+    padding: 20px 0;
+}
+
+.logo1 {
+    position: absolute;
+    width: 270px;
+    left: 30px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+}
+
+.grid-heading {
+    color: #fff;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-first {
+        margin-bottom: 10px;
+    }
+
+    .logo1 {
+        width: 210px;
+    }
+
+    .logo2 {
+        width: 160px;
+    }
+}

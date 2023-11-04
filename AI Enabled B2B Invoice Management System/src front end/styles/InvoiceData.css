@@ -1,0 +1,19 @@
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.grid-container {
+    background-color: #283a46;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+}
